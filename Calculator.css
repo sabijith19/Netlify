@@ -1,0 +1,48 @@
+#mainh {
+    text-align: center;
+    border: 2px solid blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 610px;
+    margin-right: 605.5px;
+    padding: 10px;
+}
+
+table,
+td,
+th {
+    border: 2px solid rgb(163, 101, 24);
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin-top: -23px;
+    margin-left: 610px;
+    width: 20%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+th {
+    padding: 30px;
+}
+
+#result {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Calculator {
+    margin-top: 150px;
+}
+
+input {
+    padding: 10px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <script type="text/javascript" src="Calculator.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Calculator.js">
+    </script>
+</head>
+
+<body>
+    <div class="Calculator">
+        <h1 id="mainh">Calculator</h1>
+        <table id="work">
+            <tr>
+                <th colspan="4"><input type="text" id="result" readonly></th>
+            </tr>
+            <tr>
+                <td onclick="addToDisplay('1')">1</td>
+                <td onclick="addToDisplay('2')">2</td>
+                <td onclick="addToDisplay('3')">3</td>
+                <td onclick="clearDisplay()">C</td>
+
+            </tr>
+            <tr>
+                <td onclick="addToDisplay('4')">4</td>
+                <td onclick="addToDisplay('5')">5</td>
+                <td onclick="addToDisplay('6')">6</td>
+                <td onclick="addToDisplay('0')">0</td>
+
+            </tr>
+            <tr>
+                <td onclick="addToDisplay('7')">7</td>
+                <td onclick="addToDisplay('8')">8</td>
+                <td onclick="addToDisplay('8')">9</td>
+                <td onclick="simpleCalculations()">=</td>
+
+            </tr>
+            <tr>
+                <td onclick="addToDisplay('+')">+</td>
+                <td onclick="addToDisplay('-')">-</td>
+                <td onclick="addToDisplay('*')">*</td>
+                <td onclick="addToDisplay('/')">/</td>
+
+            </tr>
+
+        </table>
+    </div>
+    <div class="lenght"> <input type="text" id="res" style="margin-left: 600px; margin-top: 100px; width: 20%;">
+        <button onclick="calc()" style="padding: 10px;">Length</button>
+        <button onclick="clearString()" style="padding: 10px;">Clear</button>
+    </div>
+    <h1 id="hello">Hello Java !</h1>
+
+
+
+
+
+</body>
+
+</html>
